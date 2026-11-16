@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
 <meta charset="utf-8">
+<script>(function(){try{if(location.protocol==="http:"){location.replace("https://"+location.host+location.pathname+location.search+location.hash);}}catch(e){}})();</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ЮАР и водопад Виктория на 8 дней: Кейптаун на кабриолетах Cobra, сафари, водопад – EnjoyDrive</title>
 <meta name="description" content="8 дней: Кейптаун, мыс Доброй Надежды на кабриолетах Cobra, сафари в Аквила, винные долины Франшхук и Херманус, водопад Виктория с вертолётом. Конструктор стоимости.">
@@ -29,9 +30,9 @@
 <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TravelAgency", "@id": "https://afrika-go.ru/#org", "name": "EnjoyDrive", "url": "https://afrika-go.ru/", "logo": "https://afrika-go.ru/assets/drive_orange.png", "description": "Агентство авторских маршрутов", "inLanguage": "ru"}, {"@type": "WebPage", "@id": "https://afrika-go.ru/", "url": "https://afrika-go.ru/", "name": "ЮАР и водопад Виктория – EnjoyDrive", "inLanguage": "ru", "about": {"@id": "https://afrika-go.ru/#trip"}, "publisher": {"@id": "https://afrika-go.ru/#org"}}, {"@type": "TouristTrip", "@id": "https://afrika-go.ru/#trip", "name": "ЮАР и водопад Виктория", "description": "8 дней: Кейптаун, мыс Доброй Надежды, винные долины Франшхука, сафари в Аквила, Херманус и водопад Виктория.", "provider": {"@id": "https://afrika-go.ru/#org"}, "itinerary": {"@type": "ItemList", "numberOfItems": 7, "itemListElement": [{"@type": "ListItem", "position": 1, "item": {"@type": "Place", "name": "Кейптаун · набережная Ватерфронт", "geo": {"@type": "GeoCoordinates", "latitude": -33.9036, "longitude": 18.4207}}}, {"@type": "ListItem", "position": 2, "item": {"@type": "Place", "name": "Пляж Боулдерс", "geo": {"@type": "GeoCoordinates", "latitude": -34.1975, "longitude": 18.451}}}, {"@type": "ListItem", "position": 3, "item": {"@type": "Place", "name": "Мыс Доброй Надежды", "geo": {"@type": "GeoCoordinates", "latitude": -34.3568, "longitude": 18.474}}}, {"@type": "ListItem", "position": 4, "item": {"@type": "Place", "name": "Франшхук", "geo": {"@type": "GeoCoordinates", "latitude": -33.9133, "longitude": 19.1169}}}, {"@type": "ListItem", "position": 5, "item": {"@type": "Place", "name": "Аквила Приват Гейм Резерв", "geo": {"@type": "GeoCoordinates", "latitude": -33.33, "longitude": 20.05}}}, {"@type": "ListItem", "position": 6, "item": {"@type": "Place", "name": "Херманус", "geo": {"@type": "GeoCoordinates", "latitude": -34.4187, "longitude": 19.2345}}}, {"@type": "ListItem", "position": 7, "item": {"@type": "Place", "name": "Виктория-Фолс", "geo": {"@type": "GeoCoordinates", "latitude": -17.9244, "longitude": 25.8567}}}]}}]}</script>
 <style>
-@font-face{font-family:"Oswald";src:url(../africa/assets/80bd98f81649.woff2) format("woff2");font-weight:200 700;font-display:swap}
-@font-face{font-family:"Geologica";src:url(../africa/assets/5308058db6f4.woff2) format("woff2");font-weight:300 600;font-display:swap}
-@font-face{font-family:"Saira EC";src:url(../africa/assets/1f64b686d99c.woff2) format("woff2");font-weight:600;font-display:swap}
+@font-face{font-family:"Oswald";src:url(assets/80bd98f81649.woff2) format("woff2");font-weight:200 700;font-display:swap}
+@font-face{font-family:"Geologica";src:url(assets/5308058db6f4.woff2) format("woff2");font-weight:300 600;font-display:swap}
+@font-face{font-family:"Saira EC";src:url(assets/1f64b686d99c.woff2) format("woff2");font-weight:600;font-display:swap}
 
 :root{
   --cloud:#F8FAF9; --mist:#C5C6C8; --silver:#818284; --steel:#4F5052; --charcoal:#272727; --night:#0D0E10;
@@ -617,7 +618,7 @@ section{padding:clamp(44px,5.5vw,72px) 0}
 .reel video{width:100%;height:auto;aspect-ratio:9/16}
 @media (max-width:760px){.reels{display:flex;overflow-x:auto;gap:10px;scroll-snap-type:x mandatory}.reel{flex:0 0 42%}}
 /* ===== знак как окно ===== */
-.mwin{aspect-ratio:478/331;-webkit-mask:url(../africa/assets/1c29fdbe85c3.svg) center/contain no-repeat;mask:url(../africa/assets/1c29fdbe85c3.svg) center/contain no-repeat;overflow:hidden}
+.mwin{aspect-ratio:478/331;-webkit-mask:url(assets/1c29fdbe85c3.svg) center/contain no-repeat;mask:url(assets/1c29fdbe85c3.svg) center/contain no-repeat;overflow:hidden}
 .mwin picture,.mwin img{width:100%;height:100%;object-fit:cover;display:block}
 .mwin-form{width:min(440px,100%);margin-top:clamp(28px,4vw,48px)}
 .mwin-foot{width:clamp(160px,18vw,240px)}
@@ -1652,8 +1653,8 @@ function startMap(){ if(started) return; started=true;
 if('IntersectionObserver' in window){ const io=new IntersectionObserver(e=>{ if(e.some(x=>x.isIntersecting)){ startMap(); io.disconnect(); } },{rootMargin:'600px'}); io.observe(document.getElementById('gmap')); } else startMap();
 })();
 
-/* заявка: та же обработка, что на странице Африки (spasibo.php → amoCRM) */
-window.FF_LEAD={endpoint:'../africa/spasibo.php'};
+/* заявка: POST на spasibo.php (urlencoded, как на первом лендинге) → amoCRM, затем редирект на спасибо */
+window.FF_LEAD={endpoint:'spasibo.php'};
 window.ffCheck=function(f){
   const c=f.contact; let err='';
   if(c){ const v=c.value.trim(), d=v.replace(/\D/g,'');
@@ -1668,8 +1669,9 @@ async function ffSend(kind, data, text, msg){
   if(data.website) return;
   delete data.website;
   try{
-    const r=await fetch(window.FF_LEAD.endpoint,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify({form:kind,text,...data,page:location.href})});
-    if(r.ok){location.href='../africa/spasibo.php';return true;}
+    const body=new URLSearchParams(Object.entries({form:kind,text,...data,page:location.href,ff_ref:(window.FFREF||'')}).filter(([,v])=>v!==undefined&&v!==null));
+    const r=await fetch(window.FF_LEAD.endpoint,{method:'POST',headers:{'Accept':'application/json'},body});
+    if(r.ok){location.href='spasibo.php';return true;}
   }catch(e){}
   msg.textContent='Не получилось отправить. Напишите нам на hello@far-fly.ru.'; return false;
 }
@@ -1800,10 +1802,23 @@ document.addEventListener('DOMContentLoaded',function(){let ok=false; try{ok=loc
   c.querySelector('button').addEventListener('click',()=>{c.hidden=true; try{localStorage.setItem('ffCookie','1');}catch(e){}});});
 </script>
 <div class="ckb" id="ffCookie" role="region" aria-label="Куки" hidden><p>Мы используем куки и Яндекс Метрику, чтобы анализировать посещаемость сайта. Продолжая пользоваться сайтом, вы соглашаетесь с <a href="consent.html#policy">политикой обработки персональных данных</a>.</p><button type="button" class="pl pl3">Хорошо</button></div>
-<script src="../africa/utm.js"></script>
+<script src="utm.js"></script>
 <script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href]');if(!a||typeof ym!=='function')return;var h=a.href;if(h.indexOf('t.me/')>-1)ym(113531580,'reachGoal','click_tg');else if(h.indexOf('instagram.com/')>-1)ym(113531580,'reachGoal','click_ig');});</script>
 <script>/* переход по якорям: заголовок блока всегда виден под шапкой (в т.ч. во встроенном браузере Telegram) */
 document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href^="#"]');if(!a||e.defaultPrevented)return;var id=a.getAttribute('href').slice(1);if(!id)return;var t=document.getElementById(id);if(!t)return;e.preventDefault();
 setTimeout(function(){var h=document.querySelector('header.top');var off=h?Math.max(0,h.getBoundingClientRect().bottom):0;var y=t.getBoundingClientRect().top+window.pageYOffset-off-8;window.scrollTo({top:Math.max(0,y),behavior:'smooth'});try{history.replaceState(null,'','#'+id);}catch(_){}} ,0);});</script>
+<script>
+/* партнёрская программа: запоминаем реф-код и сообщаем о переходе */
+(function(){try{
+  var m=location.search.match(/[?&]ref=([A-Za-z0-9]{4,32})/);
+  var c=document.cookie.match(/(?:^|;\s*)ff_ref=([^;]+)/);
+  var ref=m?m[1]:(c?decodeURIComponent(c[1]):'');
+  if(!ref) return;
+  if(m){document.cookie='ff_ref='+encodeURIComponent(ref)+';path=/;max-age='+90*86400+';SameSite=Lax';}
+  window.FFREF=ref;
+  var u='/partners/track.php?ref='+encodeURIComponent(ref);
+  if(navigator.sendBeacon){navigator.sendBeacon(u);}else{var i=new Image();i.src=u;}
+}catch(e){}})();
+</script>
 </body>
 </html>
